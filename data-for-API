@@ -1,0 +1,95 @@
+{
+  "key": "DL",
+  "name": "Delhi",
+  "covid-helpline": "11031",
+  "blood-bank": "26594438",
+  "ambulane-helpline": "14430",
+  "disaster-managment": "1077"
+}
+
+{
+  "key": "HR",
+  "name": "Haryana",
+  "covid-helpline": "08558893911",
+  "blood-bank": "01282-251236",
+  "ambulane-helpline": "4666555",
+  "disaster-managment": "0172-2703490"
+}
+
+{
+  "key": "HP",
+  "name": "Himachal Pradesh",
+  "covid-helpline": "104",
+  "blood-bank": "0177-2883439",
+  "ambulane-helpline": "9816042789",
+  "disaster-managment": "0177-2812344"
+}
+
+{
+  "key": "JK",
+  "name": "Jammu & Kashmir",
+  "covid-helpline": "0194-2440280",
+  "blood-bank": "0194-2452050",
+  "ambulane-helpline": "2549621",
+  "disaster-managment": "0194-2472580"
+}
+
+{
+  "key": "PB",
+  "name": "Punjab",
+  "covid-helpline": "011-23978046",
+  "blood-bank": "0183-2870345",
+  "ambulane-helpline": "108",
+  "disaster-managment": "0183-2229125"
+}
+
+{
+  "key": "RJ",
+  "name": "Rajasthan",
+  "covid-helpline": "0141-2225624",
+  "blood-bank": "0141-2518234",
+  "ambulane-helpline": "0141-2640009",
+  "disaster-managment": "0141-2227985"
+}
+
+{
+  "key": "UK",
+  "name": "Uttrakhand",
+  "covid-helpline": "0135-2710334",
+  "blood-bank": "0135-2655422",
+  "ambulane-helpline": "0135-2627044",
+  "disaster-managment": "0135-2710334"
+}
+
+{
+  "key": "UP",
+  "name": "Uttrapradesh",
+  "covid-helpline": "18001805145",
+  "blood-bank": "07966772377",
+  "ambulane-helpline": "108",
+  "disaster-managment": "0522-2306882"
+}
+
+{
+  "key": "GJ",
+  "name": "Gujarat",
+  "covid-helpline": "079-23250818",
+  "blood-bank": "2424594",
+  "ambulane-helpline": "0261-2414139",
+  "disaster-managment": "1092"
+}
+
+{
+  "key": "BR",
+  "name": "Bihar",
+  "covid-helpline": "0612-2247015",
+  "blood-bank": "011-23359379",
+  "ambulane-helpline": "2681786",
+  "disaster-managment": "0612-2217305"
+}
+if(!err){
+  res.send("Sucessfull deleted specified data");
+}
+else{
+  res.send(err);
+}
